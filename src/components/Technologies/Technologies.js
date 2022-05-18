@@ -35,8 +35,10 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Enter information my skills in front end webdevelopment and Artificial
-      Intelligence
+      I am a frontend developer so I am well acquainted with the frontend
+      Technologies. And I am also digging into Artificial Intelligence
+      technologies as that is a passion of mine. And as per my plan to go
+      fullstack, I have also started to pick up backend technologies.
     </SectionText>
     <List>
       <ListItem>
