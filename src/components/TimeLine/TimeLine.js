@@ -62,7 +62,20 @@ const Timeline = () => {
       <SectionDivider />
       <br />
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>Needs to be work done over here.</SectionText>
+      <SectionText>
+        I am a third-year Computer Science and Engineering undergraduate student
+        at BRAC University. I work as a part-time freelance Frontend Developer(
+        React.js+ Typescript ) at Upwork.
+        <br />
+        <br /> I am deeply interested in AI (Artificial Intelligence) and I am
+        currently working with Machine Learning models (Scikit-learn library),
+        Deep Learning, and NLP(Natural Language Processing) in Python. I am also
+        proficient in Data Science libraries in Python like NumPy, Matplotlib,
+        and Pandas.
+        <br />
+        <br />I am Currently learning the backend side to become a Full-stack
+        MERN developer.
+      </SectionText>
     </Section>
   );
 };

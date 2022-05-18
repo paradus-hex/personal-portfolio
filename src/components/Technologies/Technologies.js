@@ -1,5 +1,7 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+// import { DiFirebase, DiReact, DiZend, DiJavascript1 } from "react-icons/di";
+import { FaLaptopCode, FaReact, FaCogs, FaCubes } from "react-icons/fa";
+// import { SiTypescript } from "react-icons/si";
 import {
   Section,
   SectionDivider,
@@ -25,32 +27,72 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <FaLaptopCode size="3rem" />
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            Javascript
+            <br />
+            Python
+            <br />
+            Typescript
+            <br />
+            Java
+            <br />
+            Bash
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <FaReact size="3rem" />
         <ListContainer>
           <ListTitle>Libraries</ListTitle>
           <ListParagraph>
-            Experience with <br />
             React.js
+            <br /> React-Redux
+            <br /> React-Router
+            <br /> Babel
+            <br /> Eslint
+            <br /> Scikit Library
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <FaCogs size="3rem" />
         <ListContainer>
-          <ListTitle>Machine Learning</ListTitle>
+          <ListTitle>FrameWorks</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            Next.js
+            <br />
+            Jest
+            <br />
+            Material UI
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <FaCogs size="3rem" />
+        <ListContainer>
+          <ListTitle>Tools</ListTitle>
+          <ListParagraph>
+            Next.js
+            <br />
+            Jest
+            <br />
+            Material UI
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>{" "}
+      <ListItem>
+        <FaCogs size="3rem" />
+        <ListContainer>
+          <ListTitle>Platforms</ListTitle>
+          <ListParagraph>
+            Next.js
+            <br />
+            Jest
+            <br />
+            Material UI
           </ListParagraph>
         </ListContainer>
       </ListItem>
