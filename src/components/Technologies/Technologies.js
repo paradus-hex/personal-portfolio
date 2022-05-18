@@ -35,10 +35,11 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I am a frontend developer so I am well acquainted with the frontend
-      Technologies. And I am also digging into Artificial Intelligence
-      technologies as that is a passion of mine. And as per my plan to go
-      fullstack, I have also started to pick up backend technologies.
+      As a frontend developer I am well acquainted with the frontend
+      Technologies.
+      <br /> Artificial Intelligence fascinates me and I have started to slowly
+      dig into it. And as per my plan to go fullstack, I have also started to
+      pick up backend technologies.
     </SectionText>
     <List>
       <ListItem>
@@ -69,6 +70,9 @@ const Technologies = () => (
             <br /> Babel
             <br /> Eslint
             <br /> Scikit Library
+            <br /> Pandas Dataframe
+            <br /> Matplotib
+            <br /> Numpy
           </ListParagraph>
         </ListContainer>
       </ListItem>
