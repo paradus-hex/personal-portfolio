@@ -50,6 +50,16 @@ export const projects = [
     visit: "https://github.com/paradus-hex/2-player-Dice-Game",
     id: 4,
   },
+  {
+    title: "Guessing Game",
+    description:
+      "A number guessing retro graphics game where you have to guess the correct number to win. My first Javascript project.",
+    image: "/images/4.jpg",
+    tags: ["JavaScript", "HTML", "CSS"],
+    source: "https://guessing-game-mocha.vercel.app/",
+    visit: "https://github.com/paradus-hex/GuessingGame",
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [
