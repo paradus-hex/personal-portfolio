@@ -22,7 +22,8 @@ export const projects = [
   },
   {
     title: "Bankyn Website",
-    description: "A complete landing page for the Bankyn webapp. ",
+    description:
+      "A professional landing page for the Bankyn webapp. Includes an overview, features and testimonial section. ",
     image: "/images/3.jpg",
     tags: ["JavaScript", "HTML", "CSS"],
     source: "https://bankyn-website.netlify.app/",
@@ -32,7 +33,7 @@ export const projects = [
   {
     title: "Ticket Tracker",
     description:
-      "A ticketing application made with bug tracking in mind. Still in development.",
+      "A fullstack ticketing application made with bug tracking in mind. This is still in development.",
     image: "/images/4.jpg",
     tags: ["React", "React-router", "Firebase", "CSS"],
     source: "https://ticket-tracker-paradus.netlify.app/",
@@ -41,7 +42,8 @@ export const projects = [
   },
   {
     title: "2-player Dice Game",
-    description: "A fun dice game that can be played by 2 players.",
+    description:
+      "A fun dice game that can be played by 2 players.One of my earliest Javascript projects.",
     image: "/images/4.jpg",
     tags: ["JavaScript", "HTML", "CSS"],
     source: "https://2pdicegame.netlify.app/",

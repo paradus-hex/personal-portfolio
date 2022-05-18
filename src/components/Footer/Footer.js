@@ -16,7 +16,7 @@ import {
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="footer">
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
@@ -39,9 +39,9 @@ const Footer = () => {
         <SocialIcons href="https://www.linkedin.com/in/yaseen-nur-845a87218/">
           <AiFillLinkedin size="3rem"></AiFillLinkedin>
         </SocialIcons>
-        <SocialIcons href="https://github.com">
+        {/* <SocialIcons href="https://github.com">
           <AiFillInstagram size="3rem"></AiFillInstagram>
-        </SocialIcons>
+        </SocialIcons> */}
       </SocialContainer>
     </FooterWrapper>
   );

@@ -72,7 +72,6 @@ const Timeline = () => {
         Deep Learning, and NLP(Natural Language Processing) in Python. I am also
         proficient in Data Science libraries in Python like NumPy, Matplotlib,
         and Pandas.
-        <br />
         <br />I am Currently learning the backend side to become a Full-stack
         MERN developer.
       </SectionText>

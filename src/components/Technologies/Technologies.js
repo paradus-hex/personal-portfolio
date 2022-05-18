@@ -1,7 +1,20 @@
 import React from "react";
 // import { DiFirebase, DiReact, DiZend, DiJavascript1 } from "react-icons/di";
-import { FaLaptopCode, FaReact, FaCogs, FaCubes } from "react-icons/fa";
-// import { SiTypescript } from "react-icons/si";
+import {
+  FaLaptopCode,
+  FaReact,
+  FaCogs,
+  FaCubes,
+  FaToolbox,
+  FaTh,
+} from "react-icons/fa";
+import {
+  SiTypescript,
+  SiVisualstudiocode,
+  SiNetlify,
+  SiNextdotjs,
+  SiMongodb,
+} from "react-icons/si";
 import {
   Section,
   SectionDivider,
@@ -27,7 +40,7 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <FaLaptopCode size="3rem" />
+        <SiTypescript size="3rem" />
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
@@ -58,7 +71,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <FaCogs size="3rem" />
+        <SiNextdotjs size="3rem" />
         <ListContainer>
           <ListTitle>FrameWorks</ListTitle>
           <ListParagraph>
@@ -71,29 +84,36 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <FaCogs size="3rem" />
+        <SiVisualstudiocode size="3rem" />
         <ListContainer>
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
-            Next.js
+            VSCode
             <br />
-            Jest
+            Notion
             <br />
-            Material UI
+            Git
+            <br />
+            Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>{" "}
       <ListItem>
-        <FaCogs size="3rem" />
+        <SiNetlify size="3rem" />
         <ListContainer>
           <ListTitle>Platforms</ListTitle>
           <ListParagraph>
-            Next.js
+            Firebase
             <br />
-            Jest
-            <br />
-            Material UI
+            Netlify
           </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <SiMongodb size="3rem" />
+        <ListContainer>
+          <ListTitle>Databases</ListTitle>
+          <ListParagraph>MongoDB</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
