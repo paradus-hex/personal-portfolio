@@ -31,7 +31,7 @@ const Footer = () => {
       </LinkList>
       <SocialContainer>
         <CompanyContainer>
-          <Slogan>Hoping to hear from you soon!</Slogan>
+          <Slogan>Hope to hear from you soon!</Slogan>
         </CompanyContainer>
         <SocialIcons href="https://github.com/paradus-hex">
           <AiFillGithub size="3rem"></AiFillGithub>
