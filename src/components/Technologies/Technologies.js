@@ -106,6 +106,8 @@ const Technologies = () => (
             Firebase
             <br />
             Netlify
+            <br />
+            Vercel
           </ListParagraph>
         </ListContainer>
       </ListItem>
