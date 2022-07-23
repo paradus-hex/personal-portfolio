@@ -5,8 +5,8 @@ export const projects = [
       "An exquisite admin dashboard project for an ecommerce platform.",
     image: "/images/1.png",
     tags: ["React","Next.js", "Syncfusion", "Javascript", "CSS"],
-    source: "https://github.com/paradus-hex/Admin_Dashboard_Project",
-    visit: "https://admin-dashboard-project.vercel.app/",
+    source: "https://admin-dashboard-project.vercel.app/",
+    visit: "https://github.com/paradus-hex/Admin_Dashboard_Project",
     id: 0,
   },{
     title: "Portfolio Project",
@@ -14,8 +14,8 @@ export const projects = [
       "You are visiting this project right now!  ",
     image: "/images/1.png",
     tags: ["React","Next.js", "Tailwind CSS", "Javascript", "CSS"],
-    source: "https://admin-dashboard-project.vercel.app/",
-    visit: "https://paradushex.vercel.app/",
+    source: "https://paradushex.vercel.app/",
+    visit: "https://github.com/paradus-hex/personal-portfolio/tree/main",
     id: 1,
   },
   {
@@ -25,7 +25,7 @@ export const projects = [
     image: "/images/1.png",
     tags: ["React", "Firebase", "Javascript", "CSS"],
     source: "https://sashassushies.netlify.app/",
-    visit: "https://google.comhttps://github.com/paradus-hex/Sashas-Sushis",
+    visit: "https://github.com/paradus-hex/Sashas-Sushis",
     id: 2,
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     tags: ["JavaScript", "HTML", "CSS"],
     source: "https://bankyn-webapp.netlify.app/",
     visit:
-      "https://github.com/paradus-hex/Bankyn-2.0/blob/main/final/script.js",
+      "https://github.com/paradus-hex/Bankyn-2.0",
     id: 3,
   },
   {
