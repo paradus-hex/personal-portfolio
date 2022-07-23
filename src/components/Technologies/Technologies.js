@@ -35,11 +35,9 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      As a frontend developer I am well acquainted with the frontend
-      Technologies.
-      <br /> Artificial Intelligence fascinates me and I have started to slowly
-      dig into it. And as per my plan to go fullstack, I have also started to
-      pick up backend technologies.
+      I am well acquainted with the frontend
+      Technologies. I plan to go fullstack and therefore, I am picking up backend technologies.
+      <br /> Artificial Intelligence fascinates me and I have started my journey in AI with machine learning in Python. 
     </SectionText>
     <List>
       <ListItem>
@@ -53,7 +51,7 @@ const Technologies = () => (
             <br />
             Typescript
             <br />
-            Java
+            C
             <br />
             Bash
           </ListParagraph>
@@ -67,6 +65,8 @@ const Technologies = () => (
             React.js
             <br /> React-Redux
             <br /> React-Router
+            <br /> React-Query
+            <br /> Storybook
             <br /> Babel
             <br /> Eslint
             <br /> Scikit Library
@@ -83,9 +83,13 @@ const Technologies = () => (
           <ListParagraph>
             Next.js
             <br />
+            Express
+            <br />
             Jest
             <br />
             Material UI
+            <br />
+            Tailwind CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -121,6 +125,8 @@ const Technologies = () => (
         <SiMongodb size="3rem" />
         <ListContainer>
           <ListTitle>Databases</ListTitle>
+          <ListParagraph>MySQL</ListParagraph>
+          <ListParagraph>PostgreSQL</ListParagraph>
           <ListParagraph>MongoDB</ListParagraph>
         </ListContainer>
       </ListItem>

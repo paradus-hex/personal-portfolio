@@ -1,5 +1,24 @@
 export const projects = [
   {
+    title: "Admin Dashboard",
+    description:
+      "An exquisite admin dashboard project for an ecommerce platform.",
+    image: "/images/1.png",
+    tags: ["React","Next.js", "Syncfusion", "Javascript", "CSS"],
+    source: "https://github.com/paradus-hex/Admin_Dashboard_Project",
+    visit: "https://admin-dashboard-project.vercel.app/",
+    id: 0,
+  },{
+    title: "Portfolio Project",
+    description:
+      "You are visiting this project right now!  ",
+    image: "/images/1.png",
+    tags: ["React","Next.js", "Tailwind CSS", "Javascript", "CSS"],
+    source: "https://admin-dashboard-project.vercel.app/",
+    visit: "https://paradushex.vercel.app/",
+    id: 1,
+  },
+  {
     title: "Sasha's Sushis",
     description:
       "A food order application made with react on the frontend and firebase as a dummy backend.",
@@ -7,7 +26,7 @@ export const projects = [
     tags: ["React", "Firebase", "Javascript", "CSS"],
     source: "https://sashassushies.netlify.app/",
     visit: "https://google.comhttps://github.com/paradus-hex/Sashas-Sushis",
-    id: 0,
+    id: 2,
   },
   {
     title: "Bankyn Webapp",
@@ -18,7 +37,7 @@ export const projects = [
     source: "https://bankyn-webapp.netlify.app/",
     visit:
       "https://github.com/paradus-hex/Bankyn-2.0/blob/main/final/script.js",
-    id: 1,
+    id: 3,
   },
   {
     title: "Bankyn Website",
@@ -28,17 +47,7 @@ export const projects = [
     tags: ["JavaScript", "HTML", "CSS"],
     source: "https://bankyn-website.netlify.app/",
     visit: "https://github.com/paradus-hex/Bankyn-Website-",
-    id: 2,
-  },
-  {
-    title: "Ticket Tracker",
-    description:
-      "A fullstack ticketing application made with bug tracking in mind. This is still in development.",
-    image: "/images/4.jpg",
-    tags: ["React", "React-router", "Firebase", "CSS"],
-    source: "https://ticket-tracker-paradus.netlify.app/",
-    visit: "https://github.com/paradus-hex/Ticket-Tracker",
-    id: 3,
+    id: 4,
   },
   {
     title: "2-player Dice Game",
@@ -48,7 +57,7 @@ export const projects = [
     tags: ["JavaScript", "HTML", "CSS"],
     source: "https://2pdicegame.netlify.app/",
     visit: "https://github.com/paradus-hex/2-player-Dice-Game",
-    id: 4,
+    id: 5,
   },
   {
     title: "Guessing Game",
@@ -58,7 +67,7 @@ export const projects = [
     tags: ["JavaScript", "HTML", "CSS"],
     source: "https://guessing-game-mocha.vercel.app/",
     visit: "https://github.com/paradus-hex/GuessingGame",
-    id: 5,
+    id: 6,
   },
   // Add machine learning projects here with a different section.
 ];
