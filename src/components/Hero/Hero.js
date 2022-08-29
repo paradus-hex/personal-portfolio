@@ -1,10 +1,10 @@
-import React from "react";
 import Link from "next/link";
+import React from "react";
 
 import {
   Section,
   SectionText,
-  SectionTitle,
+  SectionTitle
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
@@ -17,7 +17,7 @@ const Hero = (props) => (
         <br /> Welcome to my personal portfolio!
       </SectionTitle>
       <SectionText>
-        I am a Frontend Developer (React.js + Typescript). Currently engrossed
+        I am a FullStack Developer (M/PERN stack). Currently engrossed
         in Machine learning (Scikit-learn), Deep learning and NLP (python). An
         avid Chess Enthusiast. And a 3rd year CS undergrad at BRAC Univeristy.
       </SectionText>

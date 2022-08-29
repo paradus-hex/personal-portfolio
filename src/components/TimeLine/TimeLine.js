@@ -1,11 +1,11 @@
 import React from "react";
+import { TimeLineData } from "../../constants/constants";
 import {
   Section,
   SectionDivider,
   SectionText,
-  SectionTitle,
+  SectionTitle
 } from "../../styles/GlobalComponents";
-import { TimeLineData } from "../../constants/constants";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -17,8 +17,7 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am currently working as a frontend developer at Reinforz.ai, a NLP (Natural Language Processing) based startup from Dhaka, Bangladesh.
-        I am working towards becoming a backend developer and I have done some basic backend work at reinforz.
+        I am currently working as a fullstack developer at Reinforz, a NLP (Natural Language Processing) based startup from Dhaka, Bangladesh.
         <br />
         <br />
         I am deeply interested in AI (Artificial Intelligence) and I am

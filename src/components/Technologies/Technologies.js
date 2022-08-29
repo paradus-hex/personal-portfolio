@@ -1,32 +1,25 @@
 import React from "react";
 // import { DiFirebase, DiReact, DiZend, DiJavascript1 } from "react-icons/di";
 import {
-  FaLaptopCode,
-  FaReact,
-  FaCogs,
-  FaCubes,
-  FaToolbox,
-  FaTh,
+  FaReact
 } from "react-icons/fa";
 import {
-  SiTypescript,
-  SiVisualstudiocode,
-  SiNetlify,
-  SiNextdotjs,
-  SiMongodb,
+  SiMongodb, SiNetlify,
+  SiNextdotjs, SiTypescript,
+  SiVisualstudiocode
 } from "react-icons/si";
 import {
   Section,
   SectionDivider,
   SectionText,
-  SectionTitle,
+  SectionTitle
 } from "../../styles/GlobalComponents";
 import {
   List,
   ListContainer,
   ListItem,
   ListParagraph,
-  ListTitle,
+  ListTitle
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
@@ -35,8 +28,8 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I am well acquainted with the frontend
-      Technologies. I plan to go fullstack and therefore, I am picking up backend technologies.
+      I am well acquainted with the M/PERN stack which stands for MongoDB / MySQL / PostgreSQL, Express, React and NodeJS.
+      <br/> I am also learning mobile development with React Native.
       <br /> Artificial Intelligence fascinates me and I have started my journey in AI with machine learning in Python. 
     </SectionText>
     <List>
@@ -47,6 +40,8 @@ const Technologies = () => (
           <ListParagraph>
             Javascript
             <br />
+            NodeJS
+            <br />
             Python
             <br />
             Typescript
@@ -54,6 +49,10 @@ const Technologies = () => (
             C
             <br />
             Bash
+            <br />
+            SQL
+            <br />
+            SaSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -73,6 +72,8 @@ const Technologies = () => (
             <br /> Pandas Dataframe
             <br /> Matplotib
             <br /> Numpy
+            <br /> JWT
+            <br /> bcrypt
           </ListParagraph>
         </ListContainer>
       </ListItem>
