@@ -17,9 +17,7 @@ const Hero = (props) => (
         <br /> Welcome to my personal portfolio!
       </SectionTitle>
       <SectionText>
-        I am a FullStack Developer (M/PERN stack). Currently engrossed
-        in Machine learning (Scikit-learn), Deep learning and NLP (python). An
-        avid Chess Enthusiast. And a 3rd year CS undergrad at BRAC Univeristy.
+      I am a React Developer with Fullstack Experience in M/PERN Stack (MySQL/MongoDB/PostgreSQL, Express, React and Node.js).
       </SectionText>
       <Link href="#footer">
         <Button>Connect with me</Button>
